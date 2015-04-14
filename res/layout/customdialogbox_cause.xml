@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/whiteColor">
+    <!-- 
+      <TextView
+        android:id="@+id/textDialogCauseTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" 
+        android:text="Reason of decision, you have taken"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+    
+      <TextView
+        android:id="@+id/textDialogCauseSubTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" 
+        android:text="Choose one option and press the icon"
+        android:textColor="@color/blackColor"
+        android:padding="8dp"/>
+    
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/radio_battery"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/cause_battery"
+          android:onClick="onRadioButtonClicked"/>
+      <RadioButton android:id="@+id/radio_location"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/cause_location"
+          android:onClick="onRadioButtonClicked"/>
+      <RadioButton android:id="@+id/radio_social"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/cause_social"
+          android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    
+      <TextView
+        android:id="@+id/textDialogMood"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" 
+        android:text="Mood"
+        android:textColor="@color/blackColor"
+        android:padding="8dp"/>
+    
+     <RelativeLayout
+        android:id="@+id/layout_battery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/textDialogMood" >
+
+        <ImageView
+            android:id="@+id/imageRealHappy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+
+         <ImageView
+            android:id="@+id/imageHappy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+          <ImageView
+            android:id="@+id/imageOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+           <ImageView
+            android:id="@+id/imageSad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+            <ImageView
+            android:id="@+id/imageConfused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+             <ImageView
+            android:id="@+id/imageAngry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_battery_charged"
+            android:layout_alignParentLeft="true"/>
+    
+    </RelativeLayout>
+    -->
+
+</LinearLayout>

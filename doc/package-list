@@ -1,0 +1,16 @@
+com.Threads
+com.application.main
+com.application.utilities
+com.data.utils
+com.dataCollected
+com.databases
+com.facebook.utils
+com.fileWriters
+com.gui.activities
+com.gui.main
+com.gui.utils
+com.interfaces
+com.main.shared_net_facebook.activities
+com.sensors
+com.services
+com.timers

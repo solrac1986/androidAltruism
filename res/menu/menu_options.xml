@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/whiteColor">
+	<item
+		android:id="@+id/menuDelete"
+		android:title="Delete data"
+		android:icon="@drawable/ic_delete"
+		/>	
+	<item
+		android:id="@+id/menuSend"
+		android:title="Send data"
+		android:icon="@drawable/ic_send"
+		/>	
+</menu>

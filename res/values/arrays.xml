@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sex_array">
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>    
+
+	    <!-- Strings Notification Bar -->
+	<string-array name="notificationbar">
+		<item name="ticker">New data forwarding</item>
+		<item name="title">Event</item>
+		<item name="text">Content:</item>
+	</string-array>
+	
+    <!-- String DialogBox -->
+    <string-array name="dialogbox">
+	    <item name="title_message">Message</item>
+	    <item name="title_file">File</item>
+	    <item name="text_forward">forward</item>
+	    <item name="sender">Sender</item>
+	    <item name="receiver">Receiver</item>
+    </string-array>
+	
+</resources>

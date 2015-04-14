@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">Shared Net</string>
+    <string name="app_name">Shared Net</string>
+    <string name="title_dialog">Data forwarding</string>
+    
+        
+    <string name="title_conditions">Before starting application</string>
+   	<string name="text_conditions">This application collects usage statistics, after you have pressed the button.</string>    
+        
+    <!-- Cause Dialgo Window -->
+    <string name="cause_battery">Battery</string>
+   	<string name="cause_location">Location</string>
+	<string name="cause_social">Social reasons</string>
+	<string name="mood">Mood, How do you feel?</string>   	
+   	
+    <!-- Filter intent -->
+     <string name="START_TRACKING_FILTER">start_tracking</string>
+     <string name="STOP_TRAKCING_FILTER">stop_tracking</string>
+     <string name="PAUSE_TRACKING_FILTER">pause_tracking</string>
+     <string name="TRACK_DATA_POPUP_FILTER">track_data_popup</string>
+     <string name="TRACK_DATA_USER_FILTER">track_data_user</string>
+     <string name="DIALOG_BOX_FILTER">dialog_box_filter</string>
+     <string name="DELETE_DATA_FILTER">delete_data_filter</string>
+     <string name="SEND_DATA_FILTER">send_data_filter</string>
+     <string name= "UPDATING_PROGRESSBAR_FILTER">updating_progressbar_filter</string>
+     <string name="SEND_DATA_DIALOG_BOX">send_data_dialog_box</string>
+</resources>
